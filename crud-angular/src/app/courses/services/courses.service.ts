@@ -9,7 +9,7 @@ import { CoursePage } from '../model/course-page';
   providedIn: 'root'
 })
 export class CoursesService {
-  private readonly API = '/api/courses';
+  private readonly API = 'api/courses';
 
   private cache: Course[] = [];
 
